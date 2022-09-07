@@ -1,1 +1,71 @@
                       Html code
+    
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="moon2.css">
+</head>
+<body>
+    <div class="moon">
+        <div class="crater1"></div>
+        <div class="crater2"></div>
+        <div class="crater3"></div>
+    </div>
+</body>
+</html>
+
+
+
+                     CSS CODE
+
+
+body{
+    background-color: #0d0d4b;
+}
+.moon{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background: #ddd;
+    box-shadow: inset 20px -10px 0 0 #b9b9b9;
+}
+.crater1{
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #bbb;
+    box-shadow: inset -3px 1.5px 0 0 #aaa;
+    top: 20px;
+    right: 20px;
+}
+.crater2{
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #bbb;
+    box-shadow: inset -1px 0.5px 0 0 #aaa;
+    top: 45px;
+    right: 50px;
+}
+.crater3{
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #bbb;
+    box-shadow: inset -1.5px 0.5px 0 0 #aaa;
+    top: 60px;
+    right: 25px;
+}
+.moon:hover{
+    box-shadow: 0 0 30px 0 #fff;
+}
